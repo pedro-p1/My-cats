@@ -1,0 +1,78 @@
+body{
+    background-color: #3c3c3c;
+    color: white;
+    font-family: 'poppins regular', sans-serif;
+    margin: 0;
+}
+header{
+    background: linear-gradient(to right, #0071ff, #2abfff);
+    padding: 20px 0 20px 0;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    background: linear-gradient(to right, #ffb300, #ffee00);
+    webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.apps img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 90px;
+}
+.apps figure{
+    text-align: center;
+    margin: auto;
+}
+.apps figcaption{
+    padding: 10px;
+}
+.cats{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+.cats img{
+    width: 300px;
+    padding: 0px;
+    border-radius: 30px;
+}
+@media screen and (max-width: 1200px){
+    li{
+        font-size: 50px;
+    }
+    figcaption{
+        font-size: 30px;
+    }
+}
